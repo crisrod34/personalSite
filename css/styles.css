@@ -1,30 +1,139 @@
-/*****************TAG SELECTORS**********************/
-
+/******************SELECTOR STYLES********/
 body {
-  background-color: #F1ECC3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
 }
 
 h1 {
-  font-size: 40px;
-  color: #57837B;
+  color: #515E63;
 }
 
-h3 {
-  font-size: 25px;
+h2 {
+  color: #515E63;
+}
+
+p {
   color: #57837B;
 }
 
 hr {
+  border-color: #515E63;
   border-style: none;
   border-top-style: dotted;
-  border-color: #515E63;
   border-width: 8px;
+  padding: 5 0 5 0;
   width: 8%;
 }
 
+/*****************CLASS STYLES***********/
+.BUTTON_XUZ {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   color: #C9D8B6;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 0 15px 0 15px;
+   background-color: #515E63;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
 
-/******************CLASS SELECTORS*******************/
+.contact-me{
+  margin: 0 auto 0 auto;
+  padding-bottom: 40px;
+  width: 35%;
+}
+.profile{
+  width: 35%;
+  margin: 0 auto 30px auto;
+}
 
+.square_container {
+  height: 200px;
+  width: 200px;
+}
 
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
 
-/******************ID SELECTORS*******************/
+.computer-image{
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.football-image{
+  position: relative;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link{
+  color: #F1ECC3;
+}
+/***************ID STYLES**************/
+#title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 5.625rem;
+}
+
+#trademark{
+  color: #F1ECC3;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+#subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+#profile-pic {
+  padding-top: 30px;
+  width: 10em;
+  height: 10em;
+}
+
+#top-container {
+  background-color: #F1ECC3;
+  padding-top: 100px;
+  position: relative;
+}
+
+#middle-container {
+  background-color: #C9D8B6;
+}
+
+#bottom-container {
+  background-color: #515E63;
+}
+
+#top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 30%;
+}
+
+#attribution {
+  display: none;
+}
